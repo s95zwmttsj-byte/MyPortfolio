@@ -1,17 +1,10 @@
-import warnings
-warnings.filterwarnings("ignore")
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import yfinance as yf
 from scipy.optimize import minimize
+from sklearn.covariance import ledoit_wolf
 
-try:
-    from sklearn.covariance import ledoit_wolf
-    hasSklearn = True
-except ImportError:
-    hasSklearn = False
 
 sectorMap = {
     "VOO": "Equity", "EEM": "Equity", "VEA": "Equity", "EFA": "Equity", "VWO": "Equity", "FXI": "Equity", "BRK-B": "Equity",
