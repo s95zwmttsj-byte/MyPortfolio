@@ -14,3 +14,5 @@ Here is a list of projects I have worked on over the years:
 6. Stocks Portfolio Optimizer -> uses alpha and beta values as well as other finance concepts like the sharpe ratio to find the "ideal" stock portfolio distribution that maximizes reward for risk taken.
 
 7. Misinformation Checker for X -> uses gemini to check for misinformation on X.com (Used AI to create visuals for extension). Google extension here: https://chromewebstore.google.com/detail/bnkdipemcbldgdkmmjjeiibmajnhbahc?utm_source=item-share-cb
+
+8. Calendar Agent -> uses gemini so that when an event shows up on the user's screen, they can easily press a hotkey to screenshot it and the agent/script can convert a random email or schedule into an actual apple calendar entry complete with details about the event. 
