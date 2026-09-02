@@ -35,7 +35,7 @@ def listen_and_transcribe():
 
 def fix_grammar(broken_text):
     print("Fixing grammar...")
-    response = groq_client.chat.completions.create(
+    response = groqClient.chat.completions.create(
         model="llama-3.1-8b-versatile", 
         messages=[
             {
