@@ -1,0 +1,1030 @@
+[
+  {
+	"node": 1,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You awaken in a mossy grove beneath a sky of swirling stars. A curious satchel rests at your side, but it’s empty. A voice in your head hums: 'The Crown of Echoes must be found, or silence will devour the world.'",
+	"choices": [
+	  {
+		"text": "Head toward the lantern lights in the forest to the east.",
+		"next": 2,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Climb the craggy ridge to the west, where a raven watches.",
+		"next": 3,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 2,
+	"gaineditems": "Forest Map",
+	"gainedstats": [1, 0, 0, 1, 0],
+	"lostitems": "",
+	"story": "Lanterns float in the air, guiding you to a camp of travelers who share food and tales. One elder gives you a 'Forest Map' and blesses your journey. You feel slightly hardier and more confident.",
+	"choices": [
+	  {
+		"text": "Ask the elder about the Crown of Echoes.",
+		"next": 4,
+		"requirements": [0, 0, 0, 1, 0, ""]
+	  },
+	  {
+		"text": "Continue on the trail deeper into the woods.",
+		"next": 5,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 3,
+	"gaineditems": "Raven Feather",
+	"gainedstats": [0, 0, 1, 0, 1],
+	"lostitems": "",
+	"story": "Scaling the rocks tests your footing, but you reach the top and discover a raven’s nest. It leaves you a single black feather. As you touch it, knowledge briefly fills your mind—ancient maps, lost roads.",
+	"choices": [
+	  {
+		"text": "Try to decipher the visions that flooded your mind.",
+		"next": 6,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  },
+	  {
+		"text": "Slide down the other side of the ridge toward the shimmering river.",
+		"next": 7,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 4,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "",
+	"story": "The elder leans close. 'The Crown was buried with the Silent King, beyond the Vale of Mist. Only the worthy can wake it.' He teaches you a riddle that may open old tombs.",
+	"choices": [
+	  {
+		"text": "Head toward the Vale of Mist immediately.",
+		"next": 8,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  },
+	  {
+		"text": "Stay and help the camp with a strange creature troubling them.",
+		"next": 9,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 5,
+	"gaineditems": "",
+	"gainedstats": [0, 1, 0, 0, 0],
+	"lostitems": "",
+	"story": "You tread into dense woods where something stalks you. A huge boar charges, and you barely manage to fend it off with a hefty branch. Your muscles burn, but you’ve survived.",
+	"choices": [
+	  {
+		"text": "Follow the boar’s trail—maybe there’s more to learn.",
+		"next": 10,
+		"requirements": [0, 1, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Leave the woods and find a clearer path west.",
+		"next": 11,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 6,
+	"gaineditems": "Whispered Riddle",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "",
+	"story": "You sit, breathe, and concentrate. The visions form words—half-rhyme, half-code. A riddle about 'silver veins and forgotten kings' etches itself in your memory. It may prove vital.",
+	"choices": [
+	  {
+		"text": "Descend toward the valley below.",
+		"next": 12,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Seek the old watchtower glimpsed in your vision.",
+		"next": 13,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  }
+	]
+  },
+  {
+	"node": 7,
+	"gaineditems": "Wet Boots",
+	"gainedstats": [0, 0, 1, 0, 0],
+	"lostitems": "",
+	"story": "You descend the ridge, slipping down scree and sliding into a misty river. Sopping wet, you crawl ashore and find yourself beside a quiet mill. Your footing improves from the slippery journey.",
+	"choices": [
+	  {
+		"text": "Knock on the mill door.",
+		"next": 14,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Explore behind the mill where the wheel turns.",
+		"next": 15,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 8,
+	"gaineditems": "",
+	"gainedstats": [1, 0, 0, 0, 0],
+	"lostitems": "Forest Map",
+	"story": "Mist thickens as you cross a forgotten bridge. You rely on your instincts now—the map is useless in this shifting fog. A cold numbness settles in your bones, but your resolve hardens.",
+	"choices": [
+	  {
+		"text": "Push forward toward a shadowy silhouette in the mist.",
+		"next": 16,
+		"requirements": [1, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Call out for guidance, risking who might hear.",
+		"next": 17,
+		"requirements": [0, 0, 0, 1, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 9,
+	"gaineditems": "Hunter’s Net",
+	"gainedstats": [0, 0, 1, 1, 0],
+	"lostitems": "",
+	"story": "You help trap a mischievous glimmerbeast that’s been raiding the food stock. The villagers reward you with a Hunter’s Net. You feel quicker and a bit more persuasive.",
+	"choices": [
+	  {
+		"text": "Use the net to try and catch the glimmerbeast again alone.",
+		"next": 18,
+		"requirements": [0, 0, 1, 0, 0, "Hunter’s Net"]
+	  },
+	  {
+		"text": "Say goodbye and head east along the moonlit ridge.",
+		"next": 19,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 10,
+	"gaineditems": "",
+	"gainedstats": [1, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You follow the boar’s trail to a hidden grove filled with medicinal herbs. You rest and heal slightly, absorbing the vitality of the place.",
+	"choices": [
+	  {
+		"text": "Collect herbs for later use.",
+		"next": 20,
+		"requirements": [1, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Leave the grove and climb the hill beyond.",
+		"next": 21,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 11,
+	"gaineditems": "",
+	"gainedstats": [0, 1, 0, 0, 0],
+	"lostitems": "",
+	"story": "The trail leads to a clearing where a fallen tree blocks your way. You break through with sheer force, feeling your muscles grow slightly stronger.",
+	"choices": [
+	  {
+		"text": "Investigate a strange mound nearby.",
+		"next": 22,
+		"requirements": [0, 1, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Follow a narrow path heading northward.",
+		"next": 23,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 12,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "",
+	"story": "You find a ruined observatory, long-abandoned but filled with scattered notes. Reading them takes time, but you gain knowledge about the lands beyond.",
+	"choices": [
+	  {
+		"text": "Try to repair the lens mechanism.",
+		"next": 24,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  },
+	  {
+		"text": "Take a few notes and head for the river trail.",
+		"next": 25,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 13,
+	"gaineditems": "Old Tower Key",
+	"gainedstats": [1, 1, 0, 0, 0],
+	"lostitems": "",
+	"story": "The tower is decayed but not empty. A dusty chest holds an iron key etched with a crest—likely for the Vale or something beyond. You commit the symbol to memory.",
+	"choices": [
+	  {
+		"text": "Descend the spiral stairs to explore the crypt.",
+		"next": 26,
+		"requirements": [0, 0, 0, 0, 0, "Old Tower Key"]
+	  },
+	  {
+		"text": "Exit through a broken wall onto the mountainside path.",
+		"next": 27,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 14,
+	"gaineditems": "Miller's Coin",
+	"gainedstats": [0, 0, 0, 1, 0],
+	"lostitems": "",
+	"story": "An old miller welcomes you and gives you soup and a strange coin with a moon on one side. 'You’ll need it if you ever meet the Ferryman,' he says cryptically.",
+	"choices": [
+	  {
+		"text": "Ask more about the Ferryman.",
+		"next": 28,
+		"requirements": [0, 0, 0, 1, 0, ""]
+	  },
+	  {
+		"text": "Thank him and continue toward the low hills.",
+		"next": 29,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 15,
+	"gaineditems": "Glimmerstone",
+	"gainedstats": [0, 0, 1, 0, 0],
+	"lostitems": "",
+	"story": "Behind the mill, you find a hidden alcove. Nestled among the roots is a small stone that pulses with faint light. It hums when you pocket it.",
+	"choices": [
+	  {
+		"text": "Hold the stone tightly and meditate.",
+		"next": 30,
+		"requirements": [0, 0, 0, 0, 1, "Glimmerstone"]
+	  },
+	  {
+		"text": "Pocket it and continue toward the hills.",
+		"next": 29,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 16,
+	"gaineditems": "",
+	"gainedstats": [1, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You push through the fog and stumble upon a strange stone door in a hill. A single keyhole glints in the moonlight.",
+	"choices": [
+	  {
+		"text": "Try to force it open with brute strength.",
+		"next": 31,
+		"requirements": [0, 1, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Search the surrounding area for another way in.",
+		"next": 32,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 17,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 1, 1, 0],
+	"lostitems": "",
+	"story": "A voice answers—a wraith, bound to the Vale. You charm it into helping you cross safely, but it warns: 'Only the true seeker may disturb the king’s rest.'",
+	"choices": [
+	  {
+		"text": "Ask for more guidance from the wraith.",
+		"next": 33,
+		"requirements": [0, 0, 0, 1, 0, ""]
+	  },
+	  {
+		"text": "Thank it and follow the trail it reveals.",
+		"next": 34,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 18,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 1, 0, 1],
+	"lostitems": "Hunter’s Net",
+	"story": "You quietly stalk the glimmerbeast and use the net to snare it again. This time, you extract glowing threads from its fur—memories of forgotten paths fill your mind.",
+	"choices": [
+	  {
+		"text": "Follow one of the visions that overwhelms you.",
+		"next": 35,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  },
+	  {
+		"text": "Leave the forest quickly before more beasts arrive.",
+		"next": 36,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 19,
+	"gaineditems": "",
+	"gainedstats": [0, 1, 0, 0, 0],
+	"lostitems": "",
+	"story": "The ridge trail is rough and cold. You swing across a chasm on a vine, narrowly avoiding a fall. You feel tougher, but something watches you from afar.",
+	"choices": [
+	  {
+		"text": "Stop and face whatever is watching.",
+		"next": 37,
+		"requirements": [0, 1, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Move faster to escape unseen.",
+		"next": 38,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 20,
+	"gaineditems": "Healing Herbs",
+	"gainedstats": [1, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You gather a handful of glowing herbs said to heal the soul. They tingle in your hand like fireflies. You store them carefully for a time you’ll need them.",
+	"choices": [
+	  {
+		"text": "Use the herbs now to revitalize completely.",
+		"next": 39,
+		"requirements": [1, 0, 0, 0, 0, "Healing Herbs"]
+	  },
+	  {
+		"text": "Keep them and head for the misty hill path.",
+		"next": 21,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 21,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "",
+	"story": "The path leads to a quiet sanctuary where an ancient inscription glows. You study it, and it reveals more about the Silent King and the Crown's location.",
+	"choices": [
+	  {
+		"text": "Mark the path and press on into the valley.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  },
+	  {
+		"text": "Attempt to transcribe the runes for later use.",
+		"next": 41,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  }
+	]
+  },
+  {
+	"node": 22,
+	"gaineditems": "",
+	"gainedstats": [0, 1, 0, 0, 0],
+	"lostitems": "",
+	"story": "The mound hides a tunnel entrance. You pry it open with strength and enter a chamber littered with ancient shields. You take one and feel a surge of power.",
+	"choices": [
+	  {
+		"text": "Go deeper into the tunnel.",
+		"next": 42,
+		"requirements": [0, 1, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Retreat and search elsewhere.",
+		"next": 23,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 23,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 1, 0, 0],
+	"lostitems": "",
+	"story": "A narrow trail leads you into a copse of trees hiding a hunter’s shrine. You move quietly and feel more sure-footed after walking the sacred circle.",
+	"choices": [
+	  {
+		"text": "Pray at the shrine.",
+		"next": 43,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Continue north toward the mountains.",
+		"next": 44,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 24,
+	"gaineditems": "Lens Focus",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "",
+	"story": "You manage to reassemble the old mechanism. The lens reveals a constellation tied to the Crown's resting place. It also enhances your understanding of time.",
+	"choices": [
+	  {
+		"text": "Follow the starlit direction.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  },
+	  {
+		"text": "Sketch the constellation and head back to the river.",
+		"next": 25,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 25,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You follow the riverside, where echoes whisper clues in unknown languages. Though you cannot understand, you feel drawn toward the Vale once again.",
+	"choices": [
+	  {
+		"text": "Head back toward the Vale.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Instead, cross the river to the stone hills.",
+		"next": 27,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 26,
+	"gaineditems": "Crown Sigil",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "Old Tower Key",
+	"story": "You use the old key to open a sarcophagus marked with the Crown's crest. Inside lies a sigil glowing with quiet power. You sense it's vital to claiming the Crown.",
+	"choices": [
+	  {
+		"text": "Continue deeper into the crypt.",
+		"next": 45,
+		"requirements": [0, 0, 0, 0, 1, "Crown Sigil"]
+	  },
+	  {
+		"text": "Return to the surface and follow the mountain trail.",
+		"next": 27,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 27,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "The trail wraps down toward the center of the Vale. You see the glint of a ruined palace on the horizon, half-swallowed by trees and time.",
+	"choices": [
+	  {
+		"text": "Head to the ruins directly.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Stop and set camp nearby to rest first.",
+		"next": 46,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 28,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 1, 0],
+	"lostitems": "",
+	"story": "The Ferryman is no ordinary being, says the miller. 'He takes memory, not coin, unless you bear the moon’s mark. Most forget why they crossed.'",
+	"choices": [
+	  {
+		"text": "Vow to keep your memories and risk the crossing later.",
+		"next": 34,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Use the coin when the time comes.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, "Miller's Coin"]
+	  }
+	]
+  },
+  {
+	"node": 29,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "The hills curve down into a misty basin. You feel you are nearing the Crown's last resting place. The landscape grows strange and dreamlike.",
+	"choices": [
+	  {
+		"text": "Step into the hollow basin.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Circle around the basin’s edge cautiously.",
+		"next": 47,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 30,
+	"gaineditems": "Vision Spark",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "Glimmerstone",
+	"story": "The Glimmerstone dissolves into light, filling you with a brief glimpse of the Silent King's mind: sorrow, duty, and the weight of fate. You know where the Crown sleeps now.",
+	"choices": [
+	  {
+		"text": "Seek out the path from your vision.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  },
+	  {
+		"text": "Wait and reflect on what you saw.",
+		"next": 46,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 31,
+	"gaineditems": "",
+	"gainedstats": [0, 1, 0, 0, 0],
+	"lostitems": "",
+	"story": "You hurl yourself at the door. With a groan of stone, it cracks open. You tumble into darkness as moss and dust rise around you.",
+	"choices": [
+	  {
+		"text": "Descend further into the tunnel.",
+		"next": 45,
+		"requirements": [0, 1, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Climb back to the surface and seek another path.",
+		"next": 27,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 32,
+	"gaineditems": "Rusted Dagger",
+	"gainedstats": [0, 0, 1, 0, 0],
+	"lostitems": "",
+	"story": "Behind the hill, you find a skeleton clutching a dagger and a faded map. You feel uneasy, but take both.",
+	"choices": [
+	  {
+		"text": "Follow the map's route.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Ignore the map and return to the stone door.",
+		"next": 31,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 33,
+	"gaineditems": "Wraith’s Favor",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "",
+	"story": "The wraith sighs and gives you a talisman. 'Speak my name before the Throne,' it whispers, then fades into the mist.",
+	"choices": [
+	  {
+		"text": "Continue into the Vale.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Return to where you first met it.",
+		"next": 25,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 34,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 1, 0],
+	"lostitems": "",
+	"story": "You follow the path and feel eyes on you. You greet a passing shadow with kindness—it bows and vanishes, leaving behind a feeling of being protected.",
+	"choices": [
+	  {
+		"text": "Step into the basin.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Climb the rocky ridge to get a better view.",
+		"next": 47,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 35,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "",
+	"story": "You follow the vision into a clearing where time bends strangely. You witness a memory of the Silent King relinquishing the Crown and weeping.",
+	"choices": [
+	  {
+		"text": "Step where he stood in the vision.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  },
+	  {
+		"text": "Sketch the memory and walk east.",
+		"next": 27,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 36,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "",
+	"story": "You hurry out of the woods. Night falls fast, but you find your way to a crumbling gate that leads to the Crown's resting place.",
+	"choices": [
+	  {
+		"text": "Enter the gate.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Circle the gate to search for traps.",
+		"next": 47,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 37,
+	"gaineditems": "",
+	"gainedstats": [1, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You face the watcher—a shadow of your past. It vanishes, but leaves behind the sense that your courage means something.",
+	"choices": [
+	  {
+		"text": "Press toward the ruins.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Stop to reflect on the vision.",
+		"next": 46,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 38,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 1, 0, 0],
+	"lostitems": "",
+	"story": "You vanish into a deer path and evade the gaze. You emerge near the Crown's resting place as a mist rolls in.",
+	"choices": [
+	  {
+		"text": "Enter the mist.",
+		"next": 40,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  },
+	  {
+		"text": "Wait until the mist clears.",
+		"next": 47,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 39,
+	"gaineditems": "",
+	"gainedstats": [1, 0, 0, 0, 0],
+	"lostitems": "Healing Herbs",
+	"story": "The herbs flood you with warmth and clarity. You feel your life-force surge, ready for whatever is ahead.",
+	"choices": [
+	  {
+		"text": "March toward the ruins with renewed vigor.",
+		"next": 40,
+		"requirements": [1, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Circle the ruins cautiously.",
+		"next": 47,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 40,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You stand before the ancient throne, where the Crown rests atop a pillar of light. The air crackles with potential.",
+	"choices": [
+	  {
+		"text": "Reach out and claim the Crown.",
+		"next": 53,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Bow before the throne and speak the Wraith’s name.",
+		"next": 49,
+		"requirements": [0, 0, 0, 0, 1, "Wraith’s Favor"]
+	  }
+	]
+  },
+  {
+	"node": 41,
+	"gaineditems": "Inscribed Runes",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "",
+	"story": "You copy the runes—your mind now more attuned to the energies guarding the Crown.",
+	"choices": [
+	  {
+		"text": "Use the runes to unlock the palace gate.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 1, "Inscribed Runes"]
+	  },
+	  {
+		"text": "Keep them and find another entrance.",
+		"next": 47,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 42,
+	"gaineditems": "Old Tower Key",
+	"gainedstats": [0, 0, 0, 0, 1],
+	"lostitems": "",
+	"story": "Inside the tunnel, you discover a hidden box containing an iron key etched with a crest.",
+	"choices": [
+	  {
+		"text": "Use it on the nearby sealed tomb.",
+		"next": 26,
+		"requirements": [0, 0, 0, 0, 1, "Old Tower Key"]
+	  },
+	  {
+		"text": "Keep moving past the tomb.",
+		"next": 27,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 43,
+	"gaineditems": "",
+	"gainedstats": [1, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You pray at the shrine. A surge of vitality fills your limbs—your journey, it seems, is blessed.",
+	"choices": [
+	  {
+		"text": "Leave and head toward the Crown.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Stay longer and listen to the forest.",
+		"next": 46,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 44,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 1, 0, 0],
+	"lostitems": "",
+	"story": "The mountain pass is harsh but isolated. You sneak past sleeping beasts and reach the basin unseen.",
+	"choices": [
+	  {
+		"text": "Approach the throne from above.",
+		"next": 47,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  },
+	  {
+		"text": "Climb down and approach directly.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 45,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You descend into a vault of whispers. Statues line the walls—ancient guardians of the Crown. One stirs slightly as you pass.",
+	"choices": [
+	  {
+		"text": "Challenge the guardian.",
+		"next": 48,
+		"requirements": [0, 3, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Avoid it and slip past.",
+		"next": 47,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 46,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 1, 1],
+	"lostitems": "",
+	"story": "You sit by the fire, and visions flood in. The story of the Crown was never about power—it was about choice.",
+	"choices": [
+	  {
+		"text": "Leave the Crown be.",
+		"next": 50,
+		"requirements": [0, 0, 0, 1, 1, ""]
+	  },
+	  {
+		"text": "Head to the throne with clarity.",
+		"next": 40,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 47,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You slip through shadows and approach the throne from an unseen path. The Crown sits silently in moonlight.",
+	"choices": [
+	  {
+		"text": "Take the Crown while unseen.",
+		"next": 40,
+		"requirements": [0, 0, 1, 0, 0, ""]
+	  },
+	  {
+		"text": "Reveal yourself and approach openly.",
+		"next": 45,
+		"requirements": [0, 0, 0, 1, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 48,
+	"gaineditems": "Crown of the Vale",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You seize the Crown. Power surges through your veins. The Vale bends to your will. But will you lead, or rule?",
+	"choices": [
+	  {
+		"text": "Rule with Might",
+		"next": 51,
+		"requirements": [0, 1, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Guide with Wisdom",
+		"next": 52,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  }
+	]
+  },
+  {
+	"node": 49,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "Wraith’s Favor",
+	"story": "You speak the wraith's name. The light dims, and the Crown vanishes. A new age begins—without thrones or kings.",
+	"choices": [
+	  {
+		"text": "The Wraith Ending",
+		"next": 1,
+		"requirements": [0, 0, 0, 0, 1, ""]
+	  },
+	  {
+		"text": "Click either of the buttons to restart.",
+		"next": 1,
+		"requirements": [0, 0, 0, 1, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 50,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You never touch the Crown. The Vale changes, and you become a myth—one who chose not to reign, but to remember.",
+	"choices": [
+	  {
+		"text": "The Observer Ending",
+		"next": 1,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Click either of the buttons to restart.",
+		"next": 1,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 51,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You become a warlord of unparalleled might, the world trembles beneath your grasp as you lounge on your throne, crown in hand.",
+	"choices": [
+	  {
+		"text": "The Warlord Ending",
+		"next": 1,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Click either of the buttons to restart.",
+		"next": 1,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 52,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You rule the world with diplomacy and knowledge, a testament as to what wisdom can achieve.",
+	"choices": [
+	  {
+		"text": "The Wisdom Ending",
+		"next": 1,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Click either of the buttons to restart.",
+		"next": 1,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+  {
+	"node": 53,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You feel the crown in your hands, the power pulsing throughout your being.",
+	"choices": [
+	  {
+		"text": "Accept the crown's power.",
+		"next": 48,
+		"requirements": [1, 1, 1, 1, 1, "Crown Sigil"]
+	  },
+	  {
+		"text": "Try to accept the crown's power",
+		"next": 54,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  },
+ {
+	"node": 54,
+	"gaineditems": "",
+	"gainedstats": [0, 0, 0, 0, 0],
+	"lostitems": "",
+	"story": "You try to accept the power coursing through your veins, but it is too much for your feeble body. The crown rejects you, turning you into ash, waiting for a more suitable person to be its owner.",
+	"choices": [
+	  {
+		"text": "The Death Ending",
+		"next": 1,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  },
+	  {
+		"text": "Click either of the buttons to restart.",
+		"next": 1,
+		"requirements": [0, 0, 0, 0, 0, ""]
+	  }
+	]
+  }
+]
+
+

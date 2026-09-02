@@ -1,0 +1,125 @@
+[gd_scene load_steps=7 format=3 uid="uid://dr3k1iqbcgo85"]
+
+[ext_resource type="Script" path="res://Main.gd" id="1_u5xh1"]
+[ext_resource type="Texture2D" uid="uid://d2u3lg5nb7nod" path="res://icon.svg" id="2_qsjrv"]
+[ext_resource type="FontFile" uid="uid://d1hmv4qkq7q61" path="res://EightBitDragon-anqx.ttf" id="3_p34w1"]
+[ext_resource type="Script" path="res://Items.gd" id="4_k65kg"]
+[ext_resource type="Script" path="res://Option1.gd" id="5_15qlg"]
+[ext_resource type="Script" path="res://Option2.gd" id="6_kd61l"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_u5xh1")
+
+[node name="Environment" type="Node2D" parent="."]
+
+[node name="Background" type="Sprite2D" parent="Environment"]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(2.08165e-12, 2.08165e-12)
+scale = Vector2(100, 100)
+texture = ExtResource("2_qsjrv")
+
+[node name="Stats" type="RichTextLabel" parent="Environment"]
+offset_left = 50.0
+offset_top = 50.0
+offset_right = 350.0
+offset_bottom = 400.0
+theme_override_fonts/normal_font = ExtResource("3_p34w1")
+theme_override_font_sizes/normal_font_size = 30
+text = "Vitality - 
+
+Strength - 
+
+Stealth - 
+
+Charisma - 
+
+Intelligence - "
+
+[node name="Vitality" type="RichTextLabel" parent="."]
+offset_left = 220.0
+offset_top = 50.0
+offset_right = 351.0
+offset_bottom = 84.0
+theme_override_fonts/normal_font = ExtResource("3_p34w1")
+theme_override_font_sizes/normal_font_size = 30
+text = "0"
+
+[node name="Strength" type="RichTextLabel" parent="."]
+offset_left = 256.0
+offset_top = 110.0
+offset_right = 387.0
+offset_bottom = 144.0
+theme_override_fonts/normal_font = ExtResource("3_p34w1")
+theme_override_font_sizes/normal_font_size = 30
+text = "0"
+
+[node name="Stealth" type="RichTextLabel" parent="."]
+offset_left = 222.0
+offset_top = 170.0
+offset_right = 353.0
+offset_bottom = 204.0
+theme_override_fonts/normal_font = ExtResource("3_p34w1")
+theme_override_font_sizes/normal_font_size = 30
+text = "0"
+
+[node name="Charisma" type="RichTextLabel" parent="."]
+offset_left = 248.0
+offset_top = 230.0
+offset_right = 379.0
+offset_bottom = 264.0
+theme_override_fonts/normal_font = ExtResource("3_p34w1")
+theme_override_font_sizes/normal_font_size = 30
+text = "0"
+
+[node name="Intelligence" type="RichTextLabel" parent="."]
+offset_left = 292.0
+offset_top = 292.0
+offset_right = 423.0
+offset_bottom = 326.0
+theme_override_fonts/normal_font = ExtResource("3_p34w1")
+theme_override_font_sizes/normal_font_size = 30
+text = "0"
+
+[node name="Dialogue" type="RichTextLabel" parent="."]
+offset_left = 450.0
+offset_top = 50.0
+offset_right = 1050.0
+offset_bottom = 450.0
+theme_override_constants/line_separation = 10
+theme_override_fonts/normal_font = ExtResource("3_p34w1")
+theme_override_font_sizes/normal_font_size = 20
+
+[node name="Items" type="RichTextLabel" parent="."]
+offset_left = 50.0
+offset_top = 370.0
+offset_right = 404.0
+offset_bottom = 620.0
+theme_override_constants/line_separation = 10
+theme_override_fonts/normal_font = ExtResource("3_p34w1")
+theme_override_font_sizes/normal_font_size = 25
+text = "Inventory:
+"
+script = ExtResource("4_k65kg")
+
+[node name="Option1" type="Button" parent="."]
+offset_left = 450.0
+offset_top = 450.0
+offset_right = 679.0
+offset_bottom = 563.0
+theme_override_fonts/font = ExtResource("3_p34w1")
+text = "Option 1"
+script = ExtResource("5_15qlg")
+
+[node name="Option2" type="Button" parent="."]
+offset_left = 800.0
+offset_top = 450.0
+offset_right = 1029.0
+offset_bottom = 563.0
+theme_override_fonts/font = ExtResource("3_p34w1")
+text = "Option 2"
+script = ExtResource("6_kd61l")
+
+[connection signal="pressed" from="Option1" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Option1" to="Option1" method="_on_pressed"]
+[connection signal="pressed" from="Option2" to="." method="_on_option_2_pressed"]
+[connection signal="pressed" from="Option2" to="Option2" method="_on_pressed"]
