@@ -5,9 +5,9 @@ import sounddevice as sd
 import speech_recognition as sr
 from openai import OpenAI
 
-groqKey = "key" #replaced API key with key here
-gradiumKey = "key" #replaced API key with key here
-voiceID = "key" #replaced Voice key with key here
+groqKey = "key" 
+gradiumKey = "key" 
+voiceID = "key" 
 
 groqClient = OpenAI(base_url="https://api.groq.com/openai/v1", api_key=groqKey)
 
